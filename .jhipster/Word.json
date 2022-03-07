@@ -1,0 +1,37 @@
+{
+  "applications": ["cheaEngine"],
+  "changelogDate": "20220307214657",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "word",
+  "fields": [
+    {
+      "fieldName": "guessedWord",
+      "fieldType": "String",
+      "javadoc": "The firstname attribute."
+    },
+    {
+      "fieldName": "firstLetter",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lenght",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "forbidenLetters",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "discoveredLetters",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Word",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}
