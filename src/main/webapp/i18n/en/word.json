@@ -1,0 +1,31 @@
+{
+  "cheaEngineApp": {
+    "word": {
+      "home": {
+        "title": "Words",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Word",
+        "createOrEditLabel": "Create or edit a Word",
+        "notFound": "No Words found"
+      },
+      "created": "A new Word is created with identifier {{ param }}",
+      "updated": "A Word is updated with identifier {{ param }}",
+      "deleted": "A Word is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Word {{ id }}?"
+      },
+      "detail": {
+        "title": "Word"
+      },
+      "id": "ID",
+      "guessedWord": "Guessed Word",
+      "firstLetter": "First Letter",
+      "lenght": "Lenght",
+      "forbidenLetters": "Forbiden Letters",
+      "discoveredLetters": "Discovered Letters",
+      "help": {
+        "guessedWord": "The firstname attribute."
+      }
+    }
+  }
+}
