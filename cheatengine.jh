@@ -1,0 +1,38 @@
+
+application {
+  config {
+    baseName cheaEngine,
+    applicationType monolith,
+    packageName com.cheaengine,
+    authenticationType jwt,
+    prodDatabaseType mysql,
+    clientFramework angular
+  }
+  entities *
+}
+
+entity Word {
+	/**
+	* The firstname attribute.
+	*/
+	guessedWord String,
+	firstLetter String,
+	lenght Integer,
+	forbidenLetters ArrayList,
+	discoveredLetters ArrayList,
+
+}
+
+
+
+// Set pagination options
+paginate Word with infinite-scroll
+
+// Use Data Transfer Objects (DTO)
+// dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl
+
+// Set an angular suffix
+// angularSuffix * with mySuffix
